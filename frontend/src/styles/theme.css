@@ -1,0 +1,208 @@
+/* ==========================================================================
+   Campus 360 — Design System & Custom Color Palette
+   Colors Requested:
+   - #E3FDFD (Ice Mint Light)
+   - #CBF1F5 (Pale Aqua)
+   - #A6E3E9 (Soft Cyan)
+   - #71C9CE (Primary Seafoam Teal)
+   ========================================================================== */
+
+:root {
+  /* Requested Color Palette */
+  --c-lightest: #E3FDFD;
+  --c-light: #CBF1F5;
+  --c-mid: #A6E3E9;
+  --c-primary: #71C9CE;
+
+  /* Theme Defaults (Dark Futuristic Seafoam Slate) */
+  --bg-app: #081218;
+  --bg-card: #0d1e27;
+  --bg-card-hover: #122935;
+  --bg-sidebar: #060e13;
+  --bg-topbar: rgba(8, 18, 24, 0.92);
+  --bg-input: #102430;
+  
+  --border-subtle: rgba(166, 227, 233, 0.15);
+  --border-highlight: rgba(113, 201, 206, 0.4);
+  --border-focus: #71C9CE;
+  
+  --text-main: #f0fdfd;
+  --text-muted: #8eb1be;
+  --text-dim: #5c7e8c;
+  --text-primary-contrast: #07171e;
+  
+  --shadow-card: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-glow: 0 0 20px rgba(113, 201, 206, 0.25);
+  --shadow-teal: 0 4px 14px rgba(113, 201, 206, 0.35);
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-full: 9999px;
+  
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-heading: 'Outfit', 'Inter', sans-serif;
+}
+
+[data-theme="light"] {
+  --bg-app: #f2fbfb;
+  --bg-card: #ffffff;
+  --bg-card-hover: #eaf9fa;
+  --bg-sidebar: #e5f7f8;
+  --bg-topbar: rgba(242, 251, 251, 0.95);
+  --bg-input: #f0fbfb;
+  
+  --border-subtle: #CBF1F5;
+  --border-highlight: #A6E3E9;
+  --border-focus: #71C9CE;
+  
+  --text-main: #0c2026;
+  --text-muted: #3a606d;
+  --text-dim: #71939f;
+  --text-primary-contrast: #ffffff;
+  
+  --shadow-card: 0 4px 16px rgba(113, 201, 206, 0.12);
+  --shadow-glow: 0 0 16px rgba(166, 227, 233, 0.4);
+}
+
+/* Base Global Resets */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-app);
+  color: var(--text-main);
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-app);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-highlight);
+  border-radius: var(--radius-full);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--c-primary);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 15px rgba(113, 201, 206, 0.2); }
+  50% { box-shadow: 0 0 25px rgba(113, 201, 206, 0.5); }
+}
+
+.animate-fade {
+  animation: fadeIn 0.25s ease-out forwards;
+}
+
+/* Common Reusable Classes */
+.btn-primary {
+  background-color: var(--c-primary);
+  color: var(--text-primary-contrast);
+  font-weight: 600;
+  padding: 8px 18px;
+  border-radius: var(--radius-md);
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+  font-size: 0.9rem;
+}
+.btn-primary:hover {
+  background-color: #5fb8bd;
+  box-shadow: var(--shadow-teal);
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background-color: rgba(166, 227, 233, 0.1);
+  color: var(--c-lightest);
+  border: 1px solid var(--border-highlight);
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+  font-size: 0.88rem;
+}
+.btn-secondary:hover {
+  background-color: rgba(166, 227, 233, 0.2);
+  border-color: var(--c-primary);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+.badge-teal {
+  background: rgba(113, 201, 206, 0.15);
+  color: var(--c-primary);
+  border: 1px solid rgba(113, 201, 206, 0.3);
+}
+.badge-aqua {
+  background: rgba(166, 227, 233, 0.15);
+  color: var(--c-mid);
+  border: 1px solid rgba(166, 227, 233, 0.3);
+}
+.badge-ice {
+  background: rgba(227, 253, 253, 0.15);
+  color: var(--c-lightest);
+  border: 1px solid rgba(227, 253, 253, 0.3);
+}
+.badge-urgent {
+  background: rgba(244, 63, 94, 0.15);
+  color: #fb7185;
+  border: 1px solid rgba(244, 63, 94, 0.3);
+}
+
+/* Modals */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(4, 9, 13, 0.75);
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+}
+.modal-container {
+  background: var(--bg-card);
+  border: 1px solid var(--border-highlight);
+  border-radius: var(--radius-lg);
+  max-width: 600px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+  animation: fadeIn 0.2s ease-out;
+}

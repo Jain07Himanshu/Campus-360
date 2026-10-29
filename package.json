@@ -1,0 +1,22 @@
+{
+  "name": "campus-360",
+  "version": "2.0.0",
+  "description": "Campus 360 — Smart College Management Operating System (React + Express + SQL)",
+  "scripts": {
+    "setup": "npm --prefix backend install && npm --prefix frontend install",
+    "server": "npm --prefix backend start",
+    "client": "npm --prefix frontend dev",
+    "dev": "node start-dev.js",
+    "build": "npm --prefix frontend build"
+  },
+  "keywords": [
+    "campus-management",
+    "college-os",
+    "react",
+    "express",
+    "sqlite",
+    "sql"
+  ],
+  "author": "Campus 360 Team",
+  "license": "MIT"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "campus360-backend",
+  "version": "1.0.0",
+  "description": "Campus 360 Express Backend with Native Node SQLite SQL Database",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
