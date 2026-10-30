@@ -10,13 +10,13 @@
 * **Paran Das** — Student ID: `25107070`
 
 **Under the guidance of**  
-**Prof. Rajashree Chaudhari**  
+**Prof. Rajashri Chaudhari**  
 
 **DEPARTMENT OF COMPUTER SCIENCE ENGINEERING (DATA SCIENCE)**  
 **A.P. SHAH INSTITUTE OF TECHNOLOGY**  
 G.B. Road, Kasarvadavali, Thane (W)-400615  
 **UNIVERSITY OF MUMBAI**  
-Academic year: 2025–26  
+Academic year: 2026–27  
 
 ---
 
@@ -24,13 +24,13 @@ Academic year: 2025–26
 
 # CERTIFICATE
 
-This is to certify that the Mini Project report on **"Campus 360: Smart College Management Operating System"** has been submitted by **Himanshu B. Jain (Student ID: 25107117)**, **Rishikesh Deherkar (Student ID: 25107112)** and **Paran Das (Student ID: 25107070)**, who are bonafide students of **A. P. Shah Institute of Technology, Thane** as a partial fulfillment of the requirement for the degree in **Computer Science Engineering (Data Science)**, during the academic year **2025–2026** in the satisfactory manner as per the curriculum laid down by **University of Mumbai**.
+This is to certify that the Mini Project report on **"Campus 360: Smart College Management Operating System"** has been submitted by **Himanshu B. Jain (Student ID: 25107117)**, **Rishikesh Deherkar (Student ID: 25107112)** and **Paran Das (Student ID: 25107070)**, who are bonafide students of **A. P. Shah Institute of Technology, Thane** as a partial fulfillment of the requirement for the degree in **Computer Science Engineering (Data Science)**, during the academic year **2026–2027** in the satisfactory manner as per the curriculum laid down by **University of Mumbai**.
 
 <br><br>
 
 | | | |
 | :---: | :---: | :---: |
-| **Prof. Rajashree Chaudhari**<br>Project Guide | **Dr. Pravin Adivarekar**<br>HOD, CSE (Data Science) | **Dr. Uttam D. Kolekar**<br>Principal |
+| **Prof. Rajashri Chaudhari**<br>Project Guide | **Dr. Pravin Adivarekar**<br>HOD, CSE (Data Science) | **Dr. Uttam D. Kolekar**<br>Principal |
 
 <br>
 
@@ -38,7 +38,7 @@ This is to certify that the Mini Project report on **"Campus 360: Smart College 
 **Internal Examiner:** 1. _______________________  
 
 **Place:** A. P. Shah Institute of Technology, Thane  
-**Date:** 21st October 2026  
+**Date:** ________________________  
 
 ---
 
@@ -46,9 +46,7 @@ This is to certify that the Mini Project report on **"Campus 360: Smart College 
 
 # ACKNOWLEDGEMENT
 
-This project would not have come to fruition without the invaluable help, constant encouragement, and technical guidance of our esteemed guide, **Prof. Rajashree Chaudhari**. We express our heartfelt gratitude towards our Head of Department, **Dr. Pravin Adivarekar**, and the Department of **Computer Science Engineering (Data Science)** for providing us with the computational infrastructure, laboratory facilities, and institutional support required to pursue and successfully complete this project.
-
-We would also like to express our sincere appreciation to our project coordinator, **Prof. Rajashree Chaudhari**, who provided us with critical constructive feedback, valuable architectural insights, and continuous direction whenever we encountered technical challenges during system development. Furthermore, we convey our deep gratitude to our Principal, **Dr. Uttam D. Kolekar**, for his constant institutional encouragement.
+This project would not have come to fruition without the invaluable help of our guide **Ms. Rajashri Chaudhari**. Expressing gratitude towards our HoD, **Dr. Pravin Adivarekar**, and the Department of **Computer Science Engineering (Data Science)** for providing us with the opportunity as well as the support required to pursue this project. We would also like to thank our project coordinator **Ms. Rajashri Chaudhari** who gave us his/her valuable suggestions and ideas when we were in need of them. We would also like to thank our peers for their helpful suggestions.
 
 Lastly, we would like to thank our peers, laboratory assistants, and family members for their continuous moral support and insightful suggestions throughout the development of this mini project.
 
@@ -67,19 +65,19 @@ Lastly, we would like to thank our peers, laboratory assistants, and family memb
 | 1.4. | Scope | 3 |
 | **2.** | **Proposed System** | **4** |
 | 2.1. | Features and Functionality | 4 |
-| **3.** | **Project Outcomes** | **6** |
-| **4.** | **Software Requirements** | **7** |
-| 4.1. | Hardware Requirements | 7 |
-| 4.2. | Software Requirements | 7 |
-| **5.** | **Project Design** | **8** |
-| 5.1. | System Architecture | 8 |
+| **3.** | **Project Outcomes** | **7** |
+| **4.** | **Software Requirements** | **8** |
+| 4.1. | Hardware Requirements | 8 |
+| 4.2. | Software Requirements | 8 |
+| **5.** | **Project Design** | **9** |
+| 5.1. | System Architecture | 9 |
 | 5.2. | Data Flow & Component Architecture | 9 |
 | 5.3. | Relational Database Schema & E-R Model | 10 |
 | **6.** | **Results** | **12** |
 | 6.1. | User Interface Module Outputs | 12 |
-| 6.2. | Query Benchmarks & Functional Testing | 14 |
-| **7.** | **Conclusion** | **15** |
-| | **References** | **16** |
+| 6.2. | Query Benchmarks & Functional Testing | 13 |
+| **7.** | **Conclusion** | **14** |
+| | **References** | **15** |
 
 ---
 
