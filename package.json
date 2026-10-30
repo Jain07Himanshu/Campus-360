@@ -3,12 +3,12 @@
   "version": "2.0.0",
   "description": "Campus 360 — Smart College Management Operating System (React + Express + SQL)",
   "scripts": {
-    "postinstall": "npm --prefix backend install && npm --prefix frontend install",
-    "setup": "npm --prefix backend install && npm --prefix frontend install",
-    "build": "npm --prefix frontend build",
+    "postinstall": "npm --prefix backend install && npm --prefix frontend install --include=dev",
+    "setup": "npm --prefix backend install && npm --prefix frontend install --include=dev",
+    "build": "npm --prefix frontend run build",
     "start": "node backend/src/server.js",
     "server": "npm --prefix backend start",
-    "client": "npm --prefix frontend dev",
+    "client": "npm --prefix frontend run dev",
     "dev": "node start-dev.js"
   },
   "engines": {
